@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+
+}
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head {
+    font-size: 4rem;
+}
+
+.container {
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(55, 162, 162);
+    font-size: 7vmin;
+    color: #000000;
+    background: linear-gradient(rgb(49, 209, 214), rgb(0, 247, 255));
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+}
+
+#reset-btn {
+    padding: 1rem;
+    margin-top: 1.1rem;
+    font-size: 1.3rem;
+    background: transparent;
+    border: 2px solid #03e9f4;
+    color: white;
+    border-radius: 1rem;
+    transition: all;
+}
+
+#reset-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px#03e9f4,
+        0 0 25px#03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background: transparents;
+    color: black;
+    border-radius: 1rem;
+    border: 2px solid #03e9f4;
+}
+
+#new-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px#03e9f4,
+        0 0 25px#03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+}
+
+#msg {
+    color: #ffff00;
+    font-size: 10vmin;
+}
+
+.msgcontainer {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
